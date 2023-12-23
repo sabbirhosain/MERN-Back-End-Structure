@@ -1,0 +1,39 @@
+(1)   =>  package.json create         =>    npm init -y
+(2)   =>  package.json(file) input    =>    "type":"module"  =>  for ES6 (file import syntex)
+(3)   =>  gitignore generator         =>    https://mrkandreev.name/snippets/gitignore-generator/
+(4)   =>  nodemoon package install    =>    
+(5)   =>  dotenv package install      =>    
+(6)   =>  create project root/src folder
+
+|-- src/config/                  # "src" folder inside the "config" folder
+|   |-- database.js              # Database configuration file
+|
+|-- src/controllers/             # "src" folder inside the "controllers" folder
+|   |-- user.controller.js       # Controller for user-related operations
+|
+|-- src/middlewares/             # "src" folder inside the "middlewares" folder
+|   |-- user.middleware.js       # Middleware for authentication
+|
+|-- src/models/                  # "src" folder inside the "models" folder
+|   |-- user.model.js            # MongoDB model for User
+|
+|-- src/routes/                  # "src" folder inside the "routes" folder
+|       |-- user.route.js        # API routes for user-related operations
+|
+|-- package.json           # Node.js project configuration file
+|-- .env                   # Environment variables configuration
+|-- app.js                 # Main Express application file
+|-- index.js               # Entry point for the Node.js server
+
+
+
+
+
+
+
+
+folder create command   =>  mkdir folderName
+fild create command     =>  
+chack directory         => dir
+change directory next   => cd folderName
+change directory prev   => cd ..
