@@ -6,6 +6,10 @@
 (2)   =>  package.json(file) input    =>    "type":"module"  =>  for ES6 (file import syntex)
 (3)   =>  gitignore generator         =>    https://mrkandreev.name/snippets/gitignore-generator/
 
+
+
+
+  
 (4)   =>  create project root/src folder
 
 |-- src/config/                  # "src" folder inside the "config" folder
